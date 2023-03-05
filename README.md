@@ -3,8 +3,7 @@ Implementation of our own HTTP server in a group of 2 people, following the HTTP
 
 To download our project :
 ```bash
-wget https://github.com/TRKirua/HTTPd.git
--O "HTTPd.zip" &&
+wget https://github.com/TRKirua/HTTPd.git -O "HTTPd.zip" &&
 unzip ./"HTTPd.zip" &&
 rm ./"HTTPd.zip"
 ```
