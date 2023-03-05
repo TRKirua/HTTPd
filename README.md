@@ -3,9 +3,9 @@ Implementation of our own HTTP server in a group of 2 people, following the HTTP
 
 To download our project :
 ```bash
-wget https://github.com/TRKirua/HTTPd.git \
--O "HTTPd.zip" && \ 
-unzip ./"HTTPd.zip" && \
+wget https://github.com/TRKirua/HTTPd.git
+-O "HTTPd.zip" &&
+unzip ./"HTTPd.zip" &&
 rm ./"HTTPd.zip"
 ```
 To compile our project :
@@ -23,14 +23,14 @@ In one terminal launch the following command:
 
 In another one launch your request with:
 ```bash
-curl -i <ip> // GET
-curl -i --head <ip> // HEAD
+curl -i <ip> #GET
+curl -i --head <ip> #HEAD
 ```
 
 Or with:
 ```bash
-echo -ne 'GET /<your_file> HTTP/1.1\r\nHost: localhost\r\n\r\n' | nc localhost 4242 // GET
-echo -ne 'HEAD /<your_file> HTTP/1.1\r\nHost: localhost\r\n\r\n' | nc localhost 4242 // HEAD
+echo -ne 'GET /<ip> HTTP/1.1\r\nHost: localhost\r\n\r\n' | nc localhost 4242 #GET
+echo -ne 'HEAD /<ip> HTTP/1.1\r\nHost: localhost\r\n\r\n' | nc localhost 4242 #HEAD
 ```
 
 ## Clean project
