@@ -1,19 +1,19 @@
 # HTTPd
 Implementation of our own HTTP server in a group of 2 people, following the HTTP/1.1 specification defined by the RFCs.
 
-To download our project :
+To download our project:
 ```bash
 wget https://github.com/TRKirua/HTTPd.git -O "HTTPd.zip" &&
 unzip ./"HTTPd.zip" &&
 rm ./"HTTPd.zip"
 ```
-To compile our project :
+To compile our project:
 ```bash
 make
 ```
 
 ## Usage
-To run our project :\
+To run our project:\
 \
 In one terminal launch the following command:
 ```bash
@@ -33,7 +33,7 @@ echo -ne 'HEAD /<ip> HTTP/1.1\r\nHost: localhost\r\n\r\n' | nc localhost 4242 #H
 ```
 
 ## Clean project
-To clean the project :
+To clean the project:
 ```bash
 make clean
 ```
